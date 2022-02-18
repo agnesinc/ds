@@ -12,5 +12,11 @@ namespace HackerRankTest
         {
             CountingSort.PerformAction(new List<int> { 1, 1,3,2,1 });
         }
+
+        [TestMethod]
+        public void TestSearchString()
+        {
+            SearchStringInAString.SearchString();
+        }
     }
 }
