@@ -5,12 +5,12 @@ using System.Collections.Generic;
 namespace HackerRankTest
 {
     [TestClass]
-    public class CountingSortTests
+    public class SearchStringInAStringTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestSearchString()
         {
-            CountingSort.PerformAction(new List<int> { 1, 1, 3, 2, 1 });
+            SearchStringInAString.SearchString();
         }
     }
 }
